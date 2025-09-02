@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-06-10 12:56:19" Modified_Date="2025-08-20 08:44:53" Creator="britt" Comments="" ID="2b9bcda331eaa67b22154bdb9b019064">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-06-10 12:56:19" Modified_Date="2025-09-02 10:39:43" Creator="britt" Comments="" ID="a0fca42f79889fd96fa937186849575c">
   <Library_General_Settings>
     <Package_File_Name>rxn_rover_lib_plugin_mock_pump_controller</Package_File_Name>
-    <Library_Version>1.0.0.2</Library_Version>
+    <Library_Version>1.1.0.6</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..\..\LabView Builds\plugins\plugin_mock_pump_controller</Library_Output_Folder>
@@ -35,7 +35,7 @@
       <Copyright/>
       <Packager>Rxn Rover</Packager>
       <URL>https://github.com/RxnRover/plugin_mock_pump_controller</URL>
-      <Release_Notes/>
+      <Release_Notes>Uses a list of Mock Comm Ports for initialization</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -285,7 +285,7 @@
         <Path>Main.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>71BB32BD87B33295370FA8538B6A2324</GUID>
+      <GUID>76FBF6FD15ACD168C5DFA631BD4E46F0</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -418,7 +418,7 @@
         <Path>process loops\Instrument Manager Loop.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BC77166AF91CE482442231F275FE3D57</GUID>
+      <GUID>D85600A51A131108AF8574472D0F1FFE</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -495,7 +495,7 @@
         <Path>SubVIs\Error Cluster from Fault.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BAAE0A090C14434A38D9DDB67EAAF882</GUID>
+      <GUID>7C67E5446F202F1FD7E443A82B08D2D3</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -572,7 +572,7 @@
         <Path>support\Cluster to Variant Attributes.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A96219403564BB6FCA40D11C30D05368</GUID>
+      <GUID>33E0387CCBA215A5F6EF692D31D0750D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -663,7 +663,7 @@
         <Path>process loops\Acquisition\Stop Acquisition.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>57CEF9609598DB023855F89D569B4331</GUID>
+      <GUID>45F16BD03DC186DF91437BBB6E94565E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -698,7 +698,7 @@
         <Path>process loops\Event Handler\Error Handler - Event Handling Loop.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>44A6710B1E7DC9795E63DC715FBFD136</GUID>
+      <GUID>487A06A567B5F55A1C4C53CC4EB2EAD7</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -733,7 +733,7 @@
         <Path>process loops\Instrument Manager\Error Handler - Instrument Manager Loop.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B562172938853F2AE771F455C13CACCB</GUID>
+      <GUID>7187DDED26622146702787D617945EE4</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -866,7 +866,7 @@
         <Path>process loops\Logging\String to Snake Case.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>227111EC9AE7C6B2C1A047D699DEA1AA</GUID>
+      <GUID>A1A194316F850470F222D4BB3BB1A824</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -929,7 +929,7 @@
         <Path>process loops\Remote Connection Manager\Remote Connection Manager Loop.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>39EABDC81ABD07EA4C2DCB29A76C027D</GUID>
+      <GUID>58F7E13F357E6006CC806DFFA7D0AC2A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -964,7 +964,7 @@
         <Path>process loops\System Control\Error Handler - System Control Loop.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B456031F8E1F8FC01D9097DED6BD7C7E</GUID>
+      <GUID>E70A9A7637433769D4CA62372B8B4E3B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1013,7 +1013,7 @@
         <Path>process loops\UI Manager\Update Data Plot.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>625E1967ADB0916CBAFF5150F4D14378</GUID>
+      <GUID>8A4978E13424029B5685FCC51500A68B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>3</Parent_Palette_Index>
@@ -1118,7 +1118,7 @@
         <Path>support\Message Queue\Obtain Message Queue.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>89526338EC17599FFC54DE20EFF2AA44</GUID>
+      <GUID>B203DA82CB63ABA37EACCB6B149CC71E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>3</Parent_Palette_Index>
@@ -1181,7 +1181,7 @@
         <Path>support\User Event - Stop\Fire User Event - Stop.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1B72E27E5F033D49791269FB73434DA1</GUID>
+      <GUID>C9AE22D56276D3D28334D2C0EC1EBF5D</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -1244,7 +1244,7 @@
         <Path>Typedefs</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>79BB82E8E305D2410594EADC234214E8</GUID>
+      <GUID>3912096029C36ED30B06520CC5B028F1</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1335,7 +1335,7 @@
         <Path>process loops\UI Manager</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6A1975279169BCC72F0E31E8E5327E8B</GUID>
+      <GUID>C0961C13A2B34441A8839A57C7991562</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1370,7 +1370,7 @@
         <Path>support\Message Queue</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>41B0DC44ABDB34FEF13E721076551B87</GUID>
+      <GUID>A17EF43CEBBAC16D88D2E04EF1A2C968</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1447,7 +1447,7 @@
         <Path>Typedefs\System Control Data.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E107C3C9DF1E2B15DE1AAA1F3E465247</GUID>
+      <GUID>97C9D145068FFAA53FD279745A59C54A</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1496,7 +1496,7 @@
         <Path>process loops\Acquisition\Hardware Configuration.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9231B62A3C958B1EB52369703E1D5FF5</GUID>
+      <GUID>096759E943C96CC9CCAD023B6DAF1032</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1531,7 +1531,7 @@
         <Path>process loops\Instrument Manager\Instrument State.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>EFE948ECB1CF1F2B68A263D6B76CC40B</GUID>
+      <GUID>B574138E8B5BD48D90CC694C826660B7</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1622,7 +1622,7 @@
         <Path>process loops\Logging\Logging State.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3BD216849F54B5D453CC48B035E9C119</GUID>
+      <GUID>17E2F8C1876BABE4C66580178CF23C16</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1671,7 +1671,7 @@
         <Path>process loops\Remote Connection Manager\RCM Sender Data.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C24821C8E5158A538A2B76A899A7BD04</GUID>
+      <GUID>3D65A31A028BF82D326D36E29F96A403</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1734,7 +1734,7 @@
         <Path>process loops\UI Manager\UI Display State.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F0A3A7F86D2EBBFDB117F397AA65356B</GUID>
+      <GUID>2015A00B54504A5D6755BB0DD1F8DF5C</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1783,7 +1783,7 @@
         <Path>support\Message Queue\Message Cluster.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FD88B7A77905D1C4E6B4070D0AE3810A</GUID>
+      <GUID>2D95A87524041B451A21AD073506720E</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
