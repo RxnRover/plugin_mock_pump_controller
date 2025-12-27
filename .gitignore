@@ -1,3 +1,6 @@
+# Based on GitHub gitignore for LabVIEW, found here:
+# https://github.com/github/gitignore/blob/main/LabVIEW.gitignore
+
 # Libraries
 *.lvlibp
 *.llb
@@ -11,8 +14,13 @@
 # Executables
 *.exe
 
-# Computer-specific settings
+# Metadata
+*.aliases
 *.lvlps
+.cache/
+
+# Builds
+builds/
 
 # Project-specific files
 logs/
